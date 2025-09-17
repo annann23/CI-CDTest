@@ -11,6 +11,7 @@ const config: Config = {
   coverageProvider: 'v8',
   testEnvironment: "jest-fixed-jsdom",
   // 테스트 전에 실행할 설정 파일을 지정
+  testPathIgnorePatterns: ["<rootDir>/e2e/tests/", "<rootDir>/tests-examples/"],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 }
  
