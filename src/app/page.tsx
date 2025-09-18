@@ -81,9 +81,8 @@
 
 // export default Home;
 
-
 // //react query => api 요청 후에 데이터를 자동으로 state에 넣어주는 놈
-// // 서버 상태관리 라이브러리 -> 
+// // 서버 상태관리 라이브러리 ->
 // //원래는 새로고침 전에는 새로운 데이터를 가져오지 않는다.
 // //api를 주기적으로 자동 요청해준다 -> 새로운 데이터로 교체한다 -> 서버 데이터 상태와 대부분 일치하게 만들어준다
 
@@ -129,7 +128,6 @@
 //   );
 // }
 
-
 // "use client";
 
 // import { useEffect, useState } from "react";
@@ -173,7 +171,7 @@
 
 //============playwright===========================
 
-
 export default function Home() {
+  const a = 'a';
   return <h1>게시글 목록</h1>;
 }
