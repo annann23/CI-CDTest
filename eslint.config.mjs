@@ -20,6 +20,9 @@ const eslintConfig = [...compat.extends("next/core-web-vitals", "next/typescript
     "build/**",
     "next-env.d.ts",
   ],
+  rules: {
+    "react/no-unescaped-entities": 0 
+  }
 }, ...storybook.configs["flat/recommended"]];
 
 export default eslintConfig;
